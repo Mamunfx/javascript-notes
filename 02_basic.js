@@ -13,6 +13,8 @@ console.log(a+" + "+b + " = " + c);
 console.log(a+" - "+b + " = " + (a-b));
 console.log(a+" * "+b + " = " + (a*b));
 console.log(a+" / "+b + " = " + (a/b));
+console.log(a ,b , c);
 
 const x = 230 ; // const is variable type which we cannot change in any cirmanstances!
 //let x = a+b ;    it will throw an error. 
+
