@@ -12,3 +12,22 @@ console.log(operation_OR);
 
 let operation_NOT = !operation_AND;         // This will always reverse the result of other operations !
 console.log(operation_NOT);
+
+
+
+/* Truth table : 
+
+AND operator -- condition1     condition2   result 
+                    T              T          T
+                    T              F          F
+                    F              F          F
+
+OR operator -- condition1     condition2    result 
+                    T              T          T
+                    T              F          T
+                    F              F          F
+
+NOT operator -- condition                   result 
+                    T                         F
+                    F                         F   
+*/
