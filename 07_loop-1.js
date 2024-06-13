@@ -63,3 +63,10 @@ for (let Q in exmpl_string) {
 for (let Q in exmpl_string) {
     console.log(exmpl_string[Q]);
 }     // And in this way for-in loop can also give us string value directly without giving index number !
+
+
+/// For-of loop :--
+
+for (let v of exmpl_string) {
+    console.log(v);
+}    // This is the easier way to directly iterate in a string or array to print value not index numer !
