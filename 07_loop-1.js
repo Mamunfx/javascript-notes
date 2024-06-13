@@ -35,3 +35,19 @@ Use a while loop for reading a file into a variable.
 Use a while loop when asking for user input.
 Use a while loop when the increment value is nonstandard.
 */
+
+
+/// Do-Wile loop :--
+
+let ewu = 69 ;
+while (ewu < 20 ) {
+    console.log("This loop will never run because the condition didnt matched !"); 
+}                       
+
+
+do {
+    console.log("And this will first run the loop for once and then it will look at the condition !");
+} while (ewu < 20 );    // and this is the use of do-while loop .
+
+
+
