@@ -51,3 +51,15 @@ do {
 
 
 
+/// For-In loop :--
+
+let exmpl_string = " BANGLA "
+
+for (let Q in exmpl_string) {
+    console.log(Q);
+}     // This loop is mainly used in iterable things like array string  . and for-in loop can return index number as shown !
+
+
+for (let Q in exmpl_string) {
+    console.log(exmpl_string[Q]);
+}     // And in this way for-in loop can also give us string value directly without giving index number !
