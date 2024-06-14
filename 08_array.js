@@ -31,3 +31,26 @@ arr_3[arr_3.length] = 'Ireland'
 arr_3[4 + 1] = 'eromerica'         // We can use other expression in the middle !
 console.log(arr_3);
 
+/// Constructor Array :--
+
+const a1 = []; 
+console.log(a1 , a1.length);       // Empty array !
+
+const a2 = new Array(5);
+console.log(a2 , a2.length);       // This is the main diffirence !
+                                   // consturctor pattern always occupie index number for array !
+const a3 = new Array(1,2,3,4);
+console.log(a3 , a3.length);     
+
+
+
+/// Factory Array :--
+
+const b1 = []; 
+console.log(b1 , b1.length);
+
+const b2 = Array(5);
+console.log(b2 , b2.length);      // Factory pattern is same as constructor just diffirent syntax !
+
+const b3 = Array(1,2,3,4);        
+console.log(b3 , b3.length);                   
