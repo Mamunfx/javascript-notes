@@ -17,3 +17,17 @@ arr_2 [2] = 3;
 arr_2 [99] = 100;                // Js always occupie memory for inbetween empty arrays !
 console.log(arr_2);
 console.log(arr_2.length);       // lenght = last index + 1  ; last index = lenght - 1 !
+
+
+const arr_3 =[
+    'Europe',
+    'North-america',
+    'UK',
+    'Australia'
+]
+
+arr_3[arr_3.length] = 'Newzealand' // This is how we can access and put value to the end of an array !
+arr_3[arr_3.length] = 'Ireland'  
+arr_3[4 + 1] = 'eromerica'         // We can use other expression in the middle !
+console.log(arr_3);
+
