@@ -54,3 +54,21 @@ console.log(b2 , b2.length);      // Factory pattern is same as constructor just
 
 const b3 = Array(1,2,3,4);        
 console.log(b3 , b3.length);                   
+
+
+/// Traverse Array Element :--
+
+
+
+const arr_4 = [4,5,9,11,8] ; 
+const m = [3];
+const n = [1];
+const x = 1 ; y = 2;
+
+console.log(m , n , arr_4[x], arr_4[y], arr_4[x+y], arr_4[x-y+1] , arr_4[x+y+1]);
+
+// Simple Traverse :
+
+for(let i=0 ; i < arr_4.length ; i++){
+    console.log(arr_4[i]);
+}
