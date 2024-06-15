@@ -72,3 +72,14 @@ console.log(m , n , arr_4[x], arr_4[y], arr_4[x+y], arr_4[x-y+1] , arr_4[x+y+1])
 for(let i=0 ; i < arr_4.length ; i++){
     console.log(arr_4[i]);
 }
+
+
+// Array sum and avarage :--
+
+let sum = 0;
+for(let i=0 ; i < arr_4.length ; i++){
+    sum += arr_4[i];
+}
+console.log("Sum = "+sum);
+console.log("Avarage = "+(sum / arr_4.length));
+
