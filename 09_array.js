@@ -60,3 +60,13 @@ names[0] = "My ";
 names[1] = "is";
 names[2] = "Mamun"
 console.log(names);
+
+
+const tiktak = new Array (9);
+tiktak.fill(false);
+for (let i = 0; i < tiktak.length; i++) {
+    const rand = Math.floor(Math.random() * 10 + 1);
+    tiktak[i] = rand > 5 ? 'X' : 'O';
+}
+console.log(tiktak);
+
