@@ -37,3 +37,7 @@ for (let i = 0; i < funcs.length; i++) {
                                                // work with !
     console.log(`${funcs[i].name} Result = ${result}`);  // this is the easy way to output things !
 }
+
+
+
+// Array of Arrays - Multi dimensional Array :--
