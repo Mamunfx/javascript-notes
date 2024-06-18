@@ -16,3 +16,24 @@ const stdn_info = [
     {name : 'Mamun', age : '23'},
     {name : 'Mamun', age : '23'},
 ] ;
+
+
+
+// Array of function :--
+
+const sum = (a,b) => a + b;
+const sub = (a,b) => a - b;
+const times = (a,b) => a * b;
+const div = (a,b) => a / b;
+const mod = (a,b) => a % b;
+
+const a = 10 ,
+      b = 20 ;
+
+const funcs = [sum, sub, times, div, mod] ;   // We can store various function inside an array and can run those !
+
+for (let i = 0; i < funcs.length; i++) {
+    const result = funcs[i](a,b)               // In this line we are calling array funcs[i] and giving reference of a and b to 
+                                               // work with !
+    console.log(`${funcs[i].name} Result = ${result}`);  // this is the easy way to output things !
+}
