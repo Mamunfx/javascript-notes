@@ -84,3 +84,29 @@ for (let i = 0; i < point_table.length; i++) {
         console.log(`Point [${i}, ${j}] = ${point_table[i][j]}`);
        }
 };
+
+/ Matrix example :--
+
+const matrix_1 = [
+    [1,2],
+    [2,3],
+    [3,4]
+];
+
+const matrix_2 = [
+    [5,6],
+    [7,8],
+    [9,10]
+];                                                             // We can calculate matrix math in array aswell !
+
+const matrixSum = (matrix_1 , matrix_2) => {                   // Here we are making a function !
+    const result = []                                          // We made another array to store the result !
+    for (let i = 0; i < matrix_1.length; i++) {                // Now we are using two dimensional array method !
+        const row = []                                         // Here we made again another array to store value of row !
+        for (let j = 0; j < matrix_1[i].length; j++) {
+            row.push(matrix_1[i][j] + matrix_2[i][j])          // It is a code which is used to push result in another array !
+        }
+        result.push(row)
+    }
+    return result
+}
