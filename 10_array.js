@@ -41,3 +41,17 @@ for (let i = 0; i < funcs.length; i++) {
 
 
 // Array of Arrays - Multi dimensional Array :--
+
+
+// One dimensional Traverse :--
+
+const point_table = [
+    [0,0],
+    [2,4],
+    [4,7],
+    [9,5],
+] ;
+
+for (let i = 0; i < point_table.length; i++) {
+    console.log(`Point ${i} - x=${point_table[i][0]} and y=${point_table[i][1]}`);
+}
