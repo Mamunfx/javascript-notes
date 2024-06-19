@@ -55,3 +55,32 @@ const point_table = [
 for (let i = 0; i < point_table.length; i++) {
     console.log(`Point ${i} - x=${point_table[i][0]} and y=${point_table[i][1]}`);
 }
+
+
+// Two dimensional Traverse :--
+
+const names = [
+    [1,2,3],
+    [4,5,6],
+    [7,8,9],
+    [10,11,12]
+];
+
+for (let j = 0; j < names[0].length; j++) {
+    console.log(names[0][j]);
+   } ;                                       // In this loop names which is an array will run its 0 index value and will loop j will
+                                            // run every value of array 0 !
+
+
+for (let i = 0; i < names.length; i++) {
+    for (let j = 0; j < names[i].length; j++) {
+        console.log(names[i][j]);
+       }
+};                                         // Its the same as previous just we have automated index of names array !
+
+
+for (let i = 0; i < point_table.length; i++) {
+    for (let j = 0; j < point_table[i].length; j++) {
+        console.log(`Point [${i}, ${j}] = ${point_table[i][j]}`);
+       }
+};
