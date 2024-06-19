@@ -85,7 +85,7 @@ for (let i = 0; i < point_table.length; i++) {
        }
 };
 
-/ Matrix example :--
+// Matrix example :--
 
 const matrix_1 = [
     [1,2],
@@ -110,3 +110,7 @@ const matrixSum = (matrix_1 , matrix_2) => {                   // Here we are ma
     }
     return result
 }
+
+const matrix_c = matrixSum(matrix_1,matrix_2)                  // Here we made a separate variable to run the function
+console.log(matrix_c);                                         // matrixSum and givig reference of matrix_1 and matrix_2 to work 
+                                                               // with !
