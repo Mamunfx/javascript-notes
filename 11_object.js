@@ -32,3 +32,27 @@ console.log(person2['id']);               // This is array notaion to acces obje
 
 const key = 'Names' ;
 console.log(person1[key]);                // Dynamic way !
+
+
+// Array of Object :--
+
+const p1 = {
+    Names : 'jka' ,
+    Age : 12 ,
+    id : '123',
+} ;
+
+const p2 = {
+    Names : 'ert' ,
+    Age : 12 ,
+    id : '145',
+} ; 
+
+const p3 = {
+    Names : 'ngg' ,
+    Age : 12 ,
+    id : '654',
+} ;
+
+const person = [p1 , p2 , p3] ;        // This is a way of array object !
+console.log(person);          
