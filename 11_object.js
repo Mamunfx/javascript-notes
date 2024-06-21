@@ -56,3 +56,35 @@ const p3 = {
 
 const person = [p1 , p2 , p3] ;        // This is a way of array object !
 console.log(person);          
+
+
+console.log(person[0]);               // This is another way using individual array index !
+console.log(person[1].Names);         // This is with array index with individual object value !
+
+
+const p = [                           // This is another way of array object !
+    {
+        Names : 'jka' ,
+        Age : 12 ,
+        id : '123',
+    } ,
+    
+    {
+        Names : 'ert' ,
+        Age : 12 ,
+        id : '145',
+    } ,
+    
+    {
+        Names : 'ngg' ,
+        Age : 12 ,
+        id : '654',
+    } ,
+] ;
+
+console.log(p[0]);
+console.log(p[1].Names);
+
+for (const v of  p ) {
+    console.log(`${v.Names} ${v.id}`);
+} ;
