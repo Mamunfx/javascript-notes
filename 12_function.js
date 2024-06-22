@@ -22,3 +22,19 @@ let arr2 = [17, 94, 83, 67, 25];
 // }
 // console.log(max2);               // Instead repeating the same loop again again we can make a function .
 
+function max(a) {
+    let max = a[0];
+  
+    for (let i of a) {
+      if (i > max) {
+        max = i;
+      }
+    }
+    return max;
+  } ;
+  
+  let maxx1 = max(arr1);
+  let maxx2 = max(arr2);
+  console.log(maxx1 , maxx2);        // We can now use this function as many time as we want !
+  
+  
