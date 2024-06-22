@@ -37,4 +37,13 @@ function max(a) {
   let maxx2 = max(arr2);
   console.log(maxx1 , maxx2);        // We can now use this function as many time as we want !
   
-  
+  /// Define function :--
+
+function names() {
+    console.log('Hello world ! ');
+} ;                                 /* This is a common way of declaring a function !
+                                     'names' will be the function name and paramiter will be used to throw 
+                                     other data to this function , it can be left as like this () if we dont 
+                                     need to work with any external data ! */
+
+names();                            // This is how we call a function .
