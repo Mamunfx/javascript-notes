@@ -59,3 +59,17 @@ sum(12,14);
 sum(22,10);
 sum(9,11);
 
+// define paramiter and with return :--
+
+function sum2(a,b) {
+  let c = a + b ;
+  return c;
+};                         // without return value this function will just exicute but not return anything!
+
+const r1 = sum2(12,14);
+console.log(' ' + r1);
+const r2 = sum2(22,10);
+console.log(r2);
+const r3 = sum2(9,11);
+console.log(r3);
+
