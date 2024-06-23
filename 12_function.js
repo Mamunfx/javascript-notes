@@ -47,3 +47,15 @@ function names() {
                                      need to work with any external data ! */
 
 names();                            // This is how we call a function .
+
+// Define with paramiter :--
+
+function sum(a,b) {
+  let c = a + b ;
+  console.log(c);
+};
+
+sum(12,14);
+sum(22,10);
+sum(9,11);
+
