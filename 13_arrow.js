@@ -16,6 +16,5 @@ let d = (a,b) => {
 
 d(12,8);
 
-
 let e = (a,b) => a+b ;     // If our function cosist just one line we use this shortcut way !
 console.log(e(20,6));
