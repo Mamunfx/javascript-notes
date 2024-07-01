@@ -71,4 +71,3 @@ const r2 = sum2(22,10);
 console.log(r2);
 const r3 = sum2(9,11);
 console.log(r3);
-
